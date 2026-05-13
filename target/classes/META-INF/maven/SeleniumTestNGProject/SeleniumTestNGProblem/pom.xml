@@ -41,7 +41,7 @@
   			<version>3.5.4</version>
   			<configuration>
   				<suiteXmlFiles>
-  					<suiteXmlFile>AmazonTestNG.xml</suiteXmlFile>
+  					<suiteXmlFile>src/test/resources/AmazonTestNG.xml</suiteXmlFile>
   				</suiteXmlFiles>
   			</configuration>
   		</plugin>
