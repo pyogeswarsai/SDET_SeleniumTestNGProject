@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon Tests(failed)">
+    <classes>
+      <class name="AmazonTesting.AmazonFunctionTesting">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="loginFunctionality"/>
+          <include name="invalidLoginCredentials"/>
+          <include name="emptyLoginValidation"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- AmazonTesting.AmazonFunctionTesting -->
+    </classes>
+  </test> <!-- Amazon Tests(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->
